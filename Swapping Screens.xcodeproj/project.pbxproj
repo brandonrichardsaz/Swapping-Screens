@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F444DE4C1E9ECAEC009B017C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DE4B1E9ECAEC009B017C /* AppDelegate.swift */; };
-		F444DE4E1E9ECAEC009B017C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DE4D1E9ECAEC009B017C /* ViewController.swift */; };
+		F444DE4E1E9ECAEC009B017C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DE4D1E9ECAEC009B017C /* LoginVC.swift */; };
 		F444DE511E9ECAEC009B017C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DE4F1E9ECAEC009B017C /* Main.storyboard */; };
 		F444DE531E9ECAEC009B017C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444DE521E9ECAEC009B017C /* Assets.xcassets */; };
 		F444DE561E9ECAEC009B017C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444DE541E9ECAEC009B017C /* LaunchScreen.storyboard */; };
+		F444DE5E1E9ECD31009B017C /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DE5D1E9ECD31009B017C /* MusicListVC.swift */; };
+		F444DE601E9ED1B1009B017C /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444DE5F1E9ED1B1009B017C /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F444DE481E9ECAEC009B017C /* Swapping Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swapping Screens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444DE4B1E9ECAEC009B017C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F444DE4D1E9ECAEC009B017C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F444DE4D1E9ECAEC009B017C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F444DE501E9ECAEC009B017C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F444DE521E9ECAEC009B017C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F444DE551E9ECAEC009B017C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F444DE571E9ECAEC009B017C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444DE5D1E9ECD31009B017C /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		F444DE5F1E9ED1B1009B017C /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F444DE4B1E9ECAEC009B017C /* AppDelegate.swift */,
-				F444DE4D1E9ECAEC009B017C /* ViewController.swift */,
+				F444DE4D1E9ECAEC009B017C /* LoginVC.swift */,
 				F444DE4F1E9ECAEC009B017C /* Main.storyboard */,
 				F444DE521E9ECAEC009B017C /* Assets.xcassets */,
 				F444DE541E9ECAEC009B017C /* LaunchScreen.storyboard */,
 				F444DE571E9ECAEC009B017C /* Info.plist */,
+				F444DE5D1E9ECD31009B017C /* MusicListVC.swift */,
+				F444DE5F1E9ED1B1009B017C /* PlaySongVC.swift */,
 			);
 			path = "Swapping Screens";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F444DE4E1E9ECAEC009B017C /* ViewController.swift in Sources */,
+				F444DE5E1E9ECD31009B017C /* MusicListVC.swift in Sources */,
+				F444DE601E9ED1B1009B017C /* PlaySongVC.swift in Sources */,
+				F444DE4E1E9ECAEC009B017C /* LoginVC.swift in Sources */,
 				F444DE4C1E9ECAEC009B017C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
